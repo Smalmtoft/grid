@@ -15,7 +15,7 @@ main{
     grid-template-rows: 1fr / 10fr;
     grid-gap: 20px;
     color: aliceblue;
-    min-height: 500px;
+    min-height: 60vh;
 }
 
 .grid-element{
@@ -92,7 +92,14 @@ main{
     background-color: rgb(254, 246, 179);
 }
 
-p, .color-palette{
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: #3c3c3c;
+}
+
+h1, .color-palette{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 200;
